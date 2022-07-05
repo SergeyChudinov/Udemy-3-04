@@ -58,8 +58,8 @@ function myAnimation() {
     let marginTop = 0;
     const box = document.querySelector('.box');
     const timerBox = setInterval(move, 5);
-    let a = Math.floor(Math.random()*19 + 1);
-    let b = Math.floor(Math.random()*19 + 1);
+    let a = Math.floor(Math.random()*9 + 1);
+    let b = Math.floor(Math.random()*9 + 1);
     function move() {
         if (marginLeft < 0 || marginLeft > 457 || marginTop < 0 || marginTop > 621) {
             // clearInterval(timerBox);
